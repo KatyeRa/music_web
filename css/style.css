@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../public/font/ProximaNova-Bold.eot');
+    src: url('../public/font/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../public/font/ProximaNova-Bold.woff') format('woff'),
+    url('../public/font/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('../public/font/ProximaNova-Regular.eot');
+    src: url('../public/font/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/font/ProximaNova-Regular.woff') format('woff'),
+    url('../public/font/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: url(../public/pigsblur.jpg) no-repeat;
+    background-size: cover;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;   
+}
+
+main{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.main__wrapper{
+    width: 375px;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 10% 0;
+}
+
+.main__wrapper-img{
+    height: 301px;
+    width: 375px;
+
+}
+
+.main__inner{
+    background:#f1f2f2;
+    padding: 18px 15px;
+    text-align: left;
+}
+
+.main__inner h1{
+    font-family: 'Proxima Nova Bold';
+    font-size: 22px;
+    line-height: 27px;
+    color: #3c3c3c;
+}
+
+.main__inner p{
+    font-family: 'Proxima Nova Regular';
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 22px;
+    margin-top: 8px;
+    color: #3c3c3c;
+}
+
+.main__wrapper-bottom{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main__wrapper-bottom p{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Proxima Nova Regular';
+}
+
+.main__wrapper-bottom-img{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main__wrapper-img img{
+    width: 375px;
+    height: 301px;
+}
+
+.background{
+    background: url(../public/pigsblur.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.player{
+    display: flex;
+    width: 375px;
+    background: white;
+    padding: 9px 15px;
+}
+
+.player__inner{
+    width: 100%;
+}
+
+.player__inner p{
+    margin-bottom: 15px;
+}
+.img__src{
+    width: 50px;
+    height: 50px;
+}
+
+.play{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.progress__container{
+    background: #dcdcdc;
+    border-radius: 5px;
+    width: 100%;
+    height: 5px ;
+    cursor: pointer;
+}
+
+.progress{
+    background: #000;
+    height: 5px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.song{
+    font-family: 'Proxima Nova Regular';
+}
+
+.progress__duration{
+    display: flex;
+    font-family: 'Proxima Nova Regular';
+    margin-top: 5px;
+    padding-bottom: 5px;
+
+}

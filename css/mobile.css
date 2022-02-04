@@ -1,0 +1,55 @@
+@media (max-width: 400px) {
+    .main{
+        width: 100%;
+    }
+
+    .main__wrapper{
+        width: 90%;
+    }
+
+    .main__wrapper-img{
+        height: 80vw;
+        width: 100%
+    }
+
+    .main__wrapper-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main__inner{
+        width: 100%;
+    }
+
+    audio{
+        width: 100%;
+    }
+
+    .player{
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .background{
+        height: 115%;
+    }
+}
+
+@media (min-height: 671px){
+    body{
+        height: 823px;
+    }
+}
+
+@media (width: 768px) {
+    body{
+        height: 1100px;
+    }
+}
+
+@media (width: 1024px) {
+    body{
+        height: 1366px;
+    }
+}
